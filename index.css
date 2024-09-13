@@ -1,0 +1,174 @@
+/* ALL */
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    }
+
+body {
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+/* Background Image */
+.bg-image {
+    background: transparent;
+    background-attachment: fixed;
+    background-image: url('https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Small Screens */
+@media (max-width: 991px) {
+    
+    h1:hover {
+        color: #0d6efd;
+        letter-spacing: 10px;
+        transition: 0.7s;              
+    }
+    
+    .qoute{
+        width: 350px;
+    }
+}
+
+/* Headlines */
+h1:hover {
+    color: #0d6efd;
+    letter-spacing: 10px;
+    transition: 0.7s;    
+}
+
+ /* Navigation Bar*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1020;    
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+    transition: 0.7s;    
+}
+
+/* Landing Page Section */
+.landing{
+    color: white;
+    height: 100vh;
+    padding: 0;
+}
+
+.landing img{
+    border: 10px solid white;
+    margin-bottom: .5rem;
+    width: 15rem !important;
+}
+
+.landing-content{
+    height: 100%;
+    margin-top: -3rem;
+}
+
+.qoute{
+    margin-top: 1rem;
+}
+
+/* About Me Section */
+#about{
+    color: white;
+    padding-bottom: 3.8rem;
+    padding-top: 3.8rem;
+}
+
+#about img{
+    border: 10px solid white;
+    margin-bottom: .5rem;
+    width: 15rem !important;
+}
+
+.about-content {
+    margin-top: 1rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Projects*/
+#projects{
+    color: white;
+    padding: 3.5rem;
+}
+
+#projectsCarousel {
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    height: auto;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+#figma{
+    color: white;
+    text-decoration: none;
+}
+
+/* Tools Section */
+#tools{
+    color: white;
+    padding: 3.8rem;
+}
+
+.tools-item:hover {
+    background-color: #2b3035;
+    border-radius: .5rem;
+}
+
+.tools-content{
+    padding: 5rem;
+}
+
+.tools-content a{
+    color: white;
+    text-decoration: none;
+}
+
+.tool-icon {
+    height: 100px;
+    width: 100px;
+}
+
+/* Contact Section */
+#contact{
+    color: white;
+    padding: 3.8rem;
+}
+#contact form{
+    max-width: 65rem;
+}
+
+.email{
+    min-width: 400px;
+}
+
+#send-button {
+    width: 15rem;
+}
+
+/* Footer Section */
+.footer{
+    color: white;
+    padding: 3rem;
+}
