@@ -5,7 +5,6 @@
     }
 
 body {
-    overflow-x: hidden;
     padding-top: 80px;
 }
 
@@ -19,7 +18,13 @@ body {
     height: 100vh;
 }
 
-/* Small Screens */
+/* Headlines */
+h1:hover {
+    color: #0d6efd;
+    letter-spacing: 10px;
+    transition: 0.7s;    
+}
+
 @media (max-width: 991px) {
     
     h1:hover {
@@ -27,17 +32,6 @@ body {
         letter-spacing: 10px;
         transition: 0.7s;              
     }
-    
-    .qoute{
-        width: 350px;
-    }
-}
-
-/* Headlines */
-h1:hover {
-    color: #0d6efd;
-    letter-spacing: 10px;
-    transition: 0.7s;    
 }
 
  /* Navigation Bar*/
@@ -71,10 +65,6 @@ h1:hover {
 .landing-content{
     height: 100%;
     margin-top: -3rem;
-}
-
-.qoute{
-    margin-top: 1rem;
 }
 
 /* About Me Section */
@@ -129,11 +119,6 @@ h1:hover {
 #tools{
     color: white;
     padding: 3.8rem;
-}
-
-.tools-item:hover {
-    background-color: #2b3035;
-    border-radius: .5rem;
 }
 
 .tools-content{
